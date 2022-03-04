@@ -1,0 +1,156 @@
+/* Main stylesheet */
+html#Other{ background-image:url("Site-Images/Site-Background.jpg");
+            background-attachment:fixed;
+            background-repeat:no-repeat;
+      	    background-color:#363636;}
+
+html#Page4{ background-image:url("Site-Images/Page-4-bg.jpg");
+            background-attachment:fixed;
+            background-repeat:no-repeat;            
+            background-color:#363636;}
+
+html#Page5{ background-image:url("Site-Images/page-5.jpg");
+            background-attachment:fixed;
+            background-repeat:no-repeat;
+      		background-color:#363636;}
+
+html#Page6-7{ background-image:url("Site-Images/img6.jpg");
+            background-attachment:fixed;
+            background-repeat:no-repeat;
+            background-size:100%;
+            background-color:#363636;}
+
+/* Banner */
+.Site-Banner-Backframe{ margin:auto; 
+	                    margin-top:1%; 
+	                    width:90%;
+	                    height:22%; 
+	                    padding:15px;
+	                    background:rgba(101, 111, 133, 0.73) ;
+	                    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+.Site-Banner{ margin:auto; 
+	          width:97%; 
+	          height:80%;
+	          padding: 15px;
+              background:rgba(54, 54, 54, 0.5);
+              box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+img#Logo{ width:25%;}
+
+ul#Site-Banner-Links{ list-style-type:none;
+					  list-style:none;
+					  text-align:center;}
+
+li#Site-Banner-Links{ display:inline;
+	                  font-size:120%;}
+
+a#Site-Banner-Links:link, a#Site-Banner-Links:visited { text-decoration:none;
+	                									color:white; }
+a#Site-Banner-Links:hover { text-decoration:underline;
+	      					color:pink; }
+
+/* Content */
+.Site-Content-Backframe{ margin:auto; 
+						 width:80%; 
+						 padding: 15px;
+	                     background:rgba(101, 111, 133, 0.73);
+	                     box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);} 
+
+.Site-Content{ margin:auto; 
+	           width:97%; 
+	           padding: 15px;
+	           background-color:rgba(54, 54, 54, 0.5);
+	           box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);} 
+
+.Site4-Content-Backframe{ margin:auto; 
+						  width:60%; 
+						  padding: 15px;
+	                      background:rgba(101, 111, 133, 0.73);
+	                      box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);} 
+
+.Site4-Content{ margin:auto; 
+	            width:95%; 
+	            padding: 15px;
+	            background-color:rgba(54, 54, 54, 0.5);
+	            box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);} 
+
+
+h1.Content , h2.Content , h3.Content , h4.Content { color:white; 
+	                                                font-family:'Montserrat Hairline', arial;}
+
+
+p.Content{ color:white; 
+	       font-family: 'Montserrat Hairline', arial; 
+	       font-size:135%;}
+
+table#Site-Content{ background-color:rgba(54, 54, 54, 0.9);
+					margin:auto;
+					padding:1%;
+					width:95%;
+					border:solid 2px white; border-collapse:collapse;
+					color:white; 
+	       			font-family: 'Montserrat Hairline', arial; 
+	       		    font-size:125%;}
+td, tr{ border: solid 1px rgba(255, 255, 255, 0.69);
+        padding:5px;}
+
+ul{ list-style-type:circle; 
+	list-style-position:inside;
+    padding:10px;
+    color:white; 
+    font-family: 'Montserrat Hairline', arial; 
+    font-size:115% }
+
+
+
+a:link, a:visited { text-decoration:none;
+	                color:#a5e1f5; }
+
+a:hover { text-decoration:underline;
+	      color:pink; }
+
+.Photo-cards-Backframe{ width:90%;
+	                    padding: 15px;
+	                    margin:auto;
+	                    background:rgba(101, 111, 133, 0.73);
+	                    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+.Photo-cards{ width:97%;
+	          margin:auto;
+	          padding:1%;
+	          background:rgba(101, 111, 133, 0.73);
+	          box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	          display:table; }
+
+
+img{ margin:0.5%;
+	 float:left; }
+
+hr{ color:rgba(255, 255, 255, 0.37);
+	width:95%;
+	margin:auto;}
+
+
+/*
+  #002DFF ,#00F4FF  
+#363636
+#2677C4
+#2677C4
+#413A40
+#413A40
+#BBB7BB
+#BBB7BB
+#8EA9D3
+#8EA9D3
+#846854
+#846854
+#0A0B0D
+#0A0B0D
+#4E5A75
+#4E5A75
+#301C0F
+#301C0F
+#656F85
+#656F85
+rgba(101, 111, 133, 0.70) */
